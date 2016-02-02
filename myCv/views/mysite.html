@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+			border: none;
+		}
+		body{
+			margin:0px;
+			background-color: lightgrey;
+			padding: 30px;
+		}
+		#me{
+			min-width: 150px;
+			min-height: 150px;
+			border-radius: 50%;
+			background-color: #888;
+		}
+		section{
+			border: 1px solid blue;
+		}
+		table,table *{
+			border: 1px solid black;
+		}
+		td{
+			padding: 5px 10px 5px 10px;
+		}
+		section{
+			text-align: center;
+		}
+		header
+		{
+			float:left;
+			position: fixed;
+			z-index: 30px;
+			top: 30px;
+			left: 30px;
+			background-color: #aaa;
+		}
+	</style>
+</head>
+<body>
+	<div class="page">
+		<header>
+			<img id="me" src="../public/images/usr.gif" alt="Here goes my photo">
+			<div>
+				<h1>My Full Name</h1></br>
+				<h3>My title</h3>
+			</div>
+		</header>
+		<!-- maybe insert here a nav tab to switch between my cv and my personal records -->
+		<div id="info" class="tab">
+			<section id="personal">
+				<h2>PERSONAL</h2>
+
+			</section>
+			<section id="education">
+				<h2>EDUCATION</h2>
+
+			</section>
+			<section id="jobs">
+				<h2>JOBS</h2>
+
+			</section>
+			<section id="tech-skills">
+				<h2>TECH</h2>
+
+			</section>
+			<section id="soft-skills">
+				<h2>SOFT</h2>
+
+			</section>
+			<section id="events">
+				<h2>EVENTS</h2>
+
+			</section>
+		</div>
+		<div id="records" class="tab">
+			<table>
+				<thead>
+					<tr>
+						<th>Description</th>
+						<th>Record</th>
+						<th>Year</th>
+						<th>Comments</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Climbing the Everest</td>
+						<td>Two days 2B)</td>
+						<td>2016</td>
+						<td>Legen... wait for it... dary</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>Last Update: dd/mm/yyyy</tr>
+				</tfoot>
+			</table>
+		</div>
+		<div id="apps" class="tab">
+
+		</div>
+	</div>
+</body>

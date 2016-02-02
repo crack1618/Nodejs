@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #000033;
+  color: lightgray;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.avatar-image {
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: opacity .18s ease-out;
+    transition: opacity .18s ease-out;
+}
+
+.avatar, .avatar-image {
+    border-radius: 50%;
+    overflow: hidden;
+}
